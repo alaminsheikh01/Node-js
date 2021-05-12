@@ -47,3 +47,25 @@ if we make a file name `index.html` inside public folder that's it.
 
 after that we need to run our file system like this:
 `http://localhost:2000/index.html`
+
+
+### step three
+
+I have worked on `.env` or `npm dotenv` package it awesome package.
+
+first I need to install dotenv like this: `npm install dotenv`
+when I use this file then this configration will be like this way
+
+```
+import dotenv from 'dotenv'
+dotenv.config()
+```
+
+that's it
+
+now just need to do 
+`process.env.ENV_VARIABLE_NAME`
+we must need a file name like `.env`.
+
+
+
